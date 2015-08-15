@@ -7,6 +7,8 @@ OpenPredict is an open-source unit prediction library utilizing a simple, yet ef
   GetLinearAOEPrediction(unit, spellData)
   GetCircularAOEPrediction(unit, spellData)
   GetConicAOEPrediction(unit, spellData)
+  
+  The parameter "unit" refers to an in-game unit such as a hero or champion and NOT an object (i.e. with stats).
   ```
 
 All core functions used in OpenPredict return a predictInfo object:
