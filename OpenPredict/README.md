@@ -2,10 +2,12 @@
 OpenPredict is an open-source unit prediction library.
 
 #####Core Functions:
-  `GetPrediction(unit, { delay, speed, width, range, collision, source })`
-  `GetLinearAOEPrediction(unit, { delay, speed, width, range, collision, source })`
-  `GetCircularAOEPrediction(unit, { delay, speed, width, range, collision, source })`
-  `GetConicAOEPrediction(unit, { delay, speed, width, range, collision, source })`
+  ```lua
+  GetPrediction(unit, { delay, speed, width, range, collision, source })
+  GetLinearAOEPrediction(unit, { delay, speed, width, range, collision, source })
+  GetCircularAOEPrediction(unit, { delay, speed, width, range, collision, source })
+  GetConicAOEPrediction(unit, { delay, speed, width, range, collision, source })
+  ```
 
 All core functions used in OpenPredict return a predictInfo object:
 
